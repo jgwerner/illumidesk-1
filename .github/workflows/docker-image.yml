@@ -15,4 +15,4 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build the setup course image
-      run: docker build ansible/roles/setup_course/files/. --file Dockerfile --tag jgwerner/test:$(date +%s)
+      run: docker build ansible/roles/setup_course/files/. --file ansible/roles/setup_course/files/Dockerfile --tag jgwerner/test:$(date +%s)

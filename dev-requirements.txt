@@ -56,6 +56,8 @@ idna==2.10
     # via requests
 iniconfig==1.0.1
     # via pytest
+isort==5.7.0
+    # via -r dev-requirements.in
 itsdangerous==1.1.0
     # via flask
 jinja2==2.11.2
@@ -104,7 +106,7 @@ pytest-cov==2.10.1
     # via -r dev-requirements.in
 pytest-html==3.0.0
     # via -r dev-requirements.in
-pytest-metadata==1.10.0
+pytest-metadata==1.11.0
     # via
     #   -r dev-requirements.in
     #   pytest-html
